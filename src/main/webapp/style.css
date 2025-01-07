@@ -1,0 +1,122 @@
+/* Style for header and navigation bar */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	
+}
+nav li {
+	margin:  0 50px;
+	
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+body {
+			background-image: url('background-image.jpg');
+			background-repeat: repeat-y;
+			background-size: cover;
+		
+			animation: changeBackground 40s ease-in-out infinite;
+		}
+@keyframes changeBackground {
+    0% {
+        opacity: 1;
+        background-image: url('images/camera.jpg');
+    }
+    20% {
+        opacity:1;
+        background-image: url('uploads/Food2.jpg');
+    }
+    40% {
+        opacity: 1;
+        background-image: url('images/trek.jpg');
+    }
+    60% {
+        opacity: 1;
+        background-image: url('images/city.jpg');
+    }
+    80% {
+        opacity: 1;
+        background-image: url('uploads/River.jpg');
+    }
+    100% {
+        opacity: 1;
+        background-image: url('images/gym.jpg');
+    }
+	
+}
+/* Style for main section and form */
+main {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h1 {
+	font-size: 38px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+}
+main
+{
+	margin-top:50px;
+	
+	background-color:rgba(0,0,0,0.5);
+	padding:16px;
+}
+form label {
+	display: block;
+	margin-bottom: 5px;
+	color: white;
+	font-family: 'Kanit', sans-serif;
+	
+}
+form input[type="text"],
+form select {
+	padding: 12px;
+	border-radius: 7px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	
+}
+form textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	resize: vertical;
+	
+}
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+	
+}
+form input[type="submit"]:hover {
+	background-color: #fff;
+	color: #333;
+	
+}

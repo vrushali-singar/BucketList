@@ -1,0 +1,96 @@
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	
+}
+nav li {
+	margin:  0 50px;
+	
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+/* Style for the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+/* Style for the form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+/* Style for the form fields */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style for the error messages */
+small {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#unameErr {
+  font-size: 12px;
+}
+
+/* Style for the submit button */
+input[type=submit] {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffa000;
+}
+
+/* Style for the heading */
+.h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for the form container */
+.shadow {
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Style for the page border */
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+
